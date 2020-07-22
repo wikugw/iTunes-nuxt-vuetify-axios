@@ -1,14 +1,14 @@
 <template>
-    <v-app-bar dark color="blue">
-        <v-app-bar-side-icon />
-        <v-app-bar-title class="white--text">
-            <nuxt-link class="title" to="/">iTunes Search</nuxt-link>
-        </v-app-bar-title>
+    <v-toolbar dark flat app dense>
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
+        <v-toolbar-title class="black--text">
+            <nuxt-link class="title black" to="/">iTunes Search</nuxt-link>
+        </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn to="/" icon>
             <v-icon>refresh</v-icon>
         </v-btn>
-    </v-app-bar>
+    </v-toolbar>
 </template>
 <script>
 export default {
